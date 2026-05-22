@@ -23,10 +23,7 @@
   <meta name="twitter:description" content="Upgrade every room with home improvement tools, products and accessories shipped internationally." />
   <meta name="twitter:image" content="https://homeimprovementcompany.net/assets/hero.jpg" />
 
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <!-- Fonts loaded via saffron.css (Newsreader + DM Sans + JetBrains Mono) -->
 
   <!-- Styles -->
   <link rel="stylesheet" href="/assets/style.css" />
@@ -140,32 +137,24 @@
      HERO SECTION
      ============================================================ -->
 <section class="hero" aria-label="Hero">
-  <div class="hero-bg">
-    <img src="/assets/hero.jpg" alt="Home improvement couple working on a project" class="hero-img" fetchpriority="high" />
-    <div class="hero-overlay"></div>
-  </div>
   <div class="hero-content">
     <div class="hero-text">
-      <span class="section-label" style="color:rgba(255,255,255,0.75)">Welcome to</span>
-      <p class="hero-heading">Thank you for visiting <strong>Home Improvement Company</strong></p>
+      <div class="hero-badge">
+        <span class="hero-badge-dot"></span>
+        Home improvement experts
+      </div>
+      <h1 class="hero-heading">Everything your home <strong>deserves</strong></h1>
       <p class="hero-sub">The global hub for home improvement tools, products and accessories — shipped fast to your door, wherever in the world you call home.</p>
       <div class="hero-actions">
         <a href="#countries" class="btn btn-accent">Find Your Country Store</a>
-        <a href="/blog/" class="btn btn-outline" style="color:#fff;border-color:rgba(255,255,255,0.5)">Read the Blog</a>
+        <a href="/blog/" class="btn btn-outline">Read the Blog</a>
       </div>
       <div class="hero-trust">
-        <div class="trust-pill">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
-          Worldwide Delivery
-        </div>
-        <div class="trust-pill">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
-          Secure Checkout
-        </div>
-        <div class="trust-pill">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
-          Expert Support
-        </div>
+        <span class="trust-pill">Secure checkout</span>
+        <span aria-hidden="true" style="color:var(--ink-300)">·</span>
+        <span class="trust-pill">Tracked international shipping</span>
+        <span aria-hidden="true" style="color:var(--ink-300)">·</span>
+        <span class="trust-pill">30-day returns</span>
       </div>
     </div>
   </div>
@@ -563,249 +552,249 @@
     <h2 class="section-title">Frequently Asked Questions</h2>
     <div class="divider"></div>
 
-    <div class="accordion" style="margin-top:48px">
+    <div class="faq-grid">
 
-      <div class="accordion-item">
-        <button class="accordion-btn">
+      <div class="faq-item">
+        <button class="faq-question">
           <h3>What countries do you deliver to?</h3>
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          <span class="faq-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="7" y1="1" x2="7" y2="13"/><line x1="1" y1="7" x2="13" y2="7"/></svg></span>
         </button>
-        <div class="accordion-body"><p>We deliver worldwide through our network of country-specific stores. Whether you're in Australia, Canada, Ireland, New Zealand, Singapore, the UK, or the USA, we have a dedicated store for your region. For other countries, please check your local store or contact our support team — we can often arrange international delivery to most destinations.</p></div>
+        <div class="faq-answer"><div class="faq-answer-inner"><p>We deliver worldwide through our network of country-specific stores. Whether you're in Australia, Canada, Ireland, New Zealand, Singapore, the UK, or the USA, we have a dedicated store for your region. For other countries, please check your local store or contact our support team — we can often arrange international delivery to most destinations.</p></div></div>
       </div>
 
-      <div class="accordion-item">
-        <button class="accordion-btn">
+      <div class="faq-item">
+        <button class="faq-question">
           <h3>How long does delivery take?</h3>
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          <span class="faq-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="7" y1="1" x2="7" y2="13"/><line x1="1" y1="7" x2="13" y2="7"/></svg></span>
         </button>
-        <div class="accordion-body"><p>Delivery times vary depending on your country and chosen shipping option. Most orders within major markets are delivered within 3–10 business days. Expedited options are available in many regions. Your local country store will display exact delivery estimates at checkout for the most accurate timelines.</p></div>
+        <div class="faq-answer"><div class="faq-answer-inner"><p>Delivery times vary depending on your country and chosen shipping option. Most orders within major markets are delivered within 3–10 business days. Expedited options are available in many regions. Your local country store will display exact delivery estimates at checkout for the most accurate timelines.</p></div></div>
       </div>
 
-      <div class="accordion-item">
-        <button class="accordion-btn">
+      <div class="faq-item">
+        <button class="faq-question">
           <h3>How do I choose the right home improvement product?</h3>
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          <span class="faq-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="7" y1="1" x2="7" y2="13"/><line x1="1" y1="7" x2="13" y2="7"/></svg></span>
         </button>
-        <div class="accordion-body"><p>Start by identifying the specific problem you want to solve — storage, safety, lighting, aesthetics, or functionality. Our buying guides (below) and blog are packed with expert advice to help you narrow down your options. If you're still unsure, our customer support team is happy to help you find the perfect fit for your home and budget.</p></div>
+        <div class="faq-answer"><div class="faq-answer-inner"><p>Start by identifying the specific problem you want to solve — storage, safety, lighting, aesthetics, or functionality. Our buying guides (below) and blog are packed with expert advice to help you narrow down your options. If you're still unsure, our customer support team is happy to help you find the perfect fit for your home and budget.</p></div></div>
       </div>
 
-      <div class="accordion-item">
-        <button class="accordion-btn">
+      <div class="faq-item">
+        <button class="faq-question">
           <h3>What is your return policy?</h3>
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          <span class="faq-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="7" y1="1" x2="7" y2="13"/><line x1="1" y1="7" x2="13" y2="7"/></svg></span>
         </button>
-        <div class="accordion-body"><p>We want you to be completely satisfied with your purchase. Most items can be returned within 30 days of receipt, provided they are unused and in original packaging. Please visit your local country store's returns page for specific conditions and instructions, as policies may vary slightly by region. Contact us at theteam@customersupport.care and we'll guide you through the process.</p></div>
+        <div class="faq-answer"><div class="faq-answer-inner"><p>We want you to be completely satisfied with your purchase. Most items can be returned within 30 days of receipt, provided they are unused and in original packaging. Please visit your local country store's returns page for specific conditions and instructions, as policies may vary slightly by region. Contact us at theteam@customersupport.care and we'll guide you through the process.</p></div></div>
       </div>
 
-      <div class="accordion-item">
-        <button class="accordion-btn">
+      <div class="faq-item">
+        <button class="faq-question">
           <h3>Are your products suitable for DIY beginners?</h3>
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          <span class="faq-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="7" y1="1" x2="7" y2="13"/><line x1="1" y1="7" x2="13" y2="7"/></svg></span>
         </button>
-        <div class="accordion-body"><p>Absolutely. We believe great home improvement should be accessible to everyone. Many of our products are designed with beginners in mind — simple installation, clear instructions, and no specialist tools required. Our blog is also filled with step-by-step DIY guides to help you tackle projects with confidence, no matter your experience level.</p></div>
+        <div class="faq-answer"><div class="faq-answer-inner"><p>Absolutely. We believe great home improvement should be accessible to everyone. Many of our products are designed with beginners in mind — simple installation, clear instructions, and no specialist tools required. Our blog is also filled with step-by-step DIY guides to help you tackle projects with confidence, no matter your experience level.</p></div></div>
       </div>
 
-      <div class="accordion-item">
-        <button class="accordion-btn">
+      <div class="faq-item">
+        <button class="faq-question">
           <h3>How do I know if a product will fit my home?</h3>
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          <span class="faq-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="7" y1="1" x2="7" y2="13"/><line x1="1" y1="7" x2="13" y2="7"/></svg></span>
         </button>
-        <div class="accordion-body"><p>Every product listing includes detailed dimensions, specifications, and compatibility information. We also provide buying guides that explain what to measure and what to look for. If you're uncertain, our support team can review your specific situation and recommend the best option. We'd rather take a little extra time to get it right than have you receive the wrong size.</p></div>
+        <div class="faq-answer"><div class="faq-answer-inner"><p>Every product listing includes detailed dimensions, specifications, and compatibility information. We also provide buying guides that explain what to measure and what to look for. If you're uncertain, our support team can review your specific situation and recommend the best option. We'd rather take a little extra time to get it right than have you receive the wrong size.</p></div></div>
       </div>
 
-      <div class="accordion-item">
-        <button class="accordion-btn">
+      <div class="faq-item">
+        <button class="faq-question">
           <h3>Is checkout secure?</h3>
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          <span class="faq-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="7" y1="1" x2="7" y2="13"/><line x1="1" y1="7" x2="13" y2="7"/></svg></span>
         </button>
-        <div class="accordion-body"><p>Yes. All transactions through our country stores are processed through industry-standard SSL encryption. We do not store your full payment card details — these are handled securely by our payment partners. Look for the padlock icon in your browser address bar as confirmation that your connection is secure.</p></div>
+        <div class="faq-answer"><div class="faq-answer-inner"><p>Yes. All transactions through our country stores are processed through industry-standard SSL encryption. We do not store your full payment card details — these are handled securely by our payment partners. Look for the padlock icon in your browser address bar as confirmation that your connection is secure.</p></div></div>
       </div>
 
-      <div class="accordion-item">
-        <button class="accordion-btn">
+      <div class="faq-item">
+        <button class="faq-question">
           <h3>Can I track my order?</h3>
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          <span class="faq-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="7" y1="1" x2="7" y2="13"/><line x1="1" y1="7" x2="13" y2="7"/></svg></span>
         </button>
-        <div class="accordion-body"><p>Yes. Once your order has been dispatched, you will receive an email confirmation containing your tracking number and a link to monitor your delivery in real time. If you haven't received tracking information within 2 business days of your order confirmation, please check your spam folder or contact our support team.</p></div>
+        <div class="faq-answer"><div class="faq-answer-inner"><p>Yes. Once your order has been dispatched, you will receive an email confirmation containing your tracking number and a link to monitor your delivery in real time. If you haven't received tracking information within 2 business days of your order confirmation, please check your spam folder or contact our support team.</p></div></div>
       </div>
 
-      <div class="accordion-item">
-        <button class="accordion-btn">
+      <div class="faq-item">
+        <button class="faq-question">
           <h3>What payment methods are accepted?</h3>
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          <span class="faq-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="7" y1="1" x2="7" y2="13"/><line x1="1" y1="7" x2="13" y2="7"/></svg></span>
         </button>
-        <div class="accordion-body"><p>We accept all major credit and debit cards including Visa, Mastercard, and American Express. PayPal is also available on most country stores, along with regional payment options such as Afterpay, Klarna, and others depending on your location. All available methods are displayed at checkout.</p></div>
+        <div class="faq-answer"><div class="faq-answer-inner"><p>We accept all major credit and debit cards including Visa, Mastercard, and American Express. PayPal is also available on most country stores, along with regional payment options such as Afterpay, Klarna, and others depending on your location. All available methods are displayed at checkout.</p></div></div>
       </div>
 
-      <div class="accordion-item">
-        <button class="accordion-btn">
+      <div class="faq-item">
+        <button class="faq-question">
           <h3>Do your products come with warranties?</h3>
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          <span class="faq-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="7" y1="1" x2="7" y2="13"/><line x1="1" y1="7" x2="13" y2="7"/></svg></span>
         </button>
-        <div class="accordion-body"><p>Yes, most products carry a manufacturer's warranty. Coverage periods vary by product type and brand. Warranty details are listed on each product page. In addition to manufacturer warranties, your consumer rights under local laws always apply — these cannot be waived by any warranty terms and provide important additional protection.</p></div>
+        <div class="faq-answer"><div class="faq-answer-inner"><p>Yes, most products carry a manufacturer's warranty. Coverage periods vary by product type and brand. Warranty details are listed on each product page. In addition to manufacturer warranties, your consumer rights under local laws always apply — these cannot be waived by any warranty terms and provide important additional protection.</p></div></div>
       </div>
 
-      <div class="accordion-item">
-        <button class="accordion-btn">
+      <div class="faq-item">
+        <button class="faq-question">
           <h3>How do I install home safety grab bars correctly?</h3>
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          <span class="faq-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="7" y1="1" x2="7" y2="13"/><line x1="1" y1="7" x2="13" y2="7"/></svg></span>
         </button>
-        <div class="accordion-body"><p>Permanent grab bars should be fixed into wall studs or solid blocking to bear weight safely. Suction cup models are easier to install and reposition, though they require a smooth, clean surface and must be tested before each use. Our installation guides walk you through the process step by step. For permanent installations supporting mobility, we strongly recommend professional fitting.</p></div>
+        <div class="faq-answer"><div class="faq-answer-inner"><p>Permanent grab bars should be fixed into wall studs or solid blocking to bear weight safely. Suction cup models are easier to install and reposition, though they require a smooth, clean surface and must be tested before each use. Our installation guides walk you through the process step by step. For permanent installations supporting mobility, we strongly recommend professional fitting.</p></div></div>
       </div>
 
-      <div class="accordion-item">
-        <button class="accordion-btn">
+      <div class="faq-item">
+        <button class="faq-question">
           <h3>What's the difference between suction and permanent grab bars?</h3>
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          <span class="faq-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="7" y1="1" x2="7" y2="13"/><line x1="1" y1="7" x2="13" y2="7"/></svg></span>
         </button>
-        <div class="accordion-body"><p>Permanent grab bars are fixed directly into the wall and can support much greater weight loads — ideal for seniors or anyone with significant mobility needs. Suction cup models are portable, renter-friendly, and require no drilling, but must be checked regularly and are not recommended as the sole support for someone with limited mobility. Our buying guide covers this in detail.</p></div>
+        <div class="faq-answer"><div class="faq-answer-inner"><p>Permanent grab bars are fixed directly into the wall and can support much greater weight loads — ideal for seniors or anyone with significant mobility needs. Suction cup models are portable, renter-friendly, and require no drilling, but must be checked regularly and are not recommended as the sole support for someone with limited mobility. Our buying guide covers this in detail.</p></div></div>
       </div>
 
-      <div class="accordion-item">
-        <button class="accordion-btn">
+      <div class="faq-item">
+        <button class="faq-question">
           <h3>Are your products environmentally friendly?</h3>
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          <span class="faq-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="7" y1="1" x2="7" y2="13"/><line x1="1" y1="7" x2="13" y2="7"/></svg></span>
         </button>
-        <div class="accordion-body"><p>We take sustainability seriously. Our packaging is fully recyclable, and we prioritise products made from responsibly sourced materials. We also carry a range of specifically eco-conscious products — low-flow fixtures, LED lighting, and energy-efficient appliances — that reduce your home's environmental impact without sacrificing quality or style.</p></div>
+        <div class="faq-answer"><div class="faq-answer-inner"><p>We take sustainability seriously. Our packaging is fully recyclable, and we prioritise products made from responsibly sourced materials. We also carry a range of specifically eco-conscious products — low-flow fixtures, LED lighting, and energy-efficient appliances — that reduce your home's environmental impact without sacrificing quality or style.</p></div></div>
       </div>
 
-      <div class="accordion-item">
-        <button class="accordion-btn">
+      <div class="faq-item">
+        <button class="faq-question">
           <h3>Can I cancel or change my order after placing it?</h3>
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          <span class="faq-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="7" y1="1" x2="7" y2="13"/><line x1="1" y1="7" x2="13" y2="7"/></svg></span>
         </button>
-        <div class="accordion-body"><p>We process orders quickly, but if you need to make a change, contact us at theteam@customersupport.care as soon as possible. We'll do our best to accommodate amendments or cancellations before dispatch. Once an order has shipped, you will need to follow our standard returns process to send it back for a refund.</p></div>
+        <div class="faq-answer"><div class="faq-answer-inner"><p>We process orders quickly, but if you need to make a change, contact us at theteam@customersupport.care as soon as possible. We'll do our best to accommodate amendments or cancellations before dispatch. Once an order has shipped, you will need to follow our standard returns process to send it back for a refund.</p></div></div>
       </div>
 
-      <div class="accordion-item">
-        <button class="accordion-btn">
+      <div class="faq-item">
+        <button class="faq-question">
           <h3>How do I clean and maintain my products?</h3>
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          <span class="faq-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="7" y1="1" x2="7" y2="13"/><line x1="1" y1="7" x2="13" y2="7"/></svg></span>
         </button>
-        <div class="accordion-body"><p>Care instructions are included with every product and listed on product pages. As a general rule, most of our home improvement products clean easily with mild detergent and a damp cloth. Avoid harsh abrasives on polished surfaces. For specific maintenance schedules — such as chandelier cleaning or solar light care — refer to the included guide or browse our blog for detailed walkthroughs.</p></div>
+        <div class="faq-answer"><div class="faq-answer-inner"><p>Care instructions are included with every product and listed on product pages. As a general rule, most of our home improvement products clean easily with mild detergent and a damp cloth. Avoid harsh abrasives on polished surfaces. For specific maintenance schedules — such as chandelier cleaning or solar light care — refer to the included guide or browse our blog for detailed walkthroughs.</p></div></div>
       </div>
 
-      <div class="accordion-item">
-        <button class="accordion-btn">
+      <div class="faq-item">
+        <button class="faq-question">
           <h3>Do you offer installation services?</h3>
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          <span class="faq-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="7" y1="1" x2="7" y2="13"/><line x1="1" y1="7" x2="13" y2="7"/></svg></span>
         </button>
-        <div class="accordion-body"><p>Installation services vary by country and product category. Some country stores partner with local tradesperson networks. For most products, we provide detailed installation guides designed to be completed by a competent DIYer. For complex or safety-critical installations, we always recommend engaging a qualified professional — your safety is never worth cutting corners on.</p></div>
+        <div class="faq-answer"><div class="faq-answer-inner"><p>Installation services vary by country and product category. Some country stores partner with local tradesperson networks. For most products, we provide detailed installation guides designed to be completed by a competent DIYer. For complex or safety-critical installations, we always recommend engaging a qualified professional — your safety is never worth cutting corners on.</p></div></div>
       </div>
 
-      <div class="accordion-item">
-        <button class="accordion-btn">
+      <div class="faq-item">
+        <button class="faq-question">
           <h3>What is the best type of vacuum cleaner for pet hair?</h3>
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          <span class="faq-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="7" y1="1" x2="7" y2="13"/><line x1="1" y1="7" x2="13" y2="7"/></svg></span>
         </button>
-        <div class="accordion-body"><p>For pet hair, a bagless vacuum with a motorised brush roll and a HEPA filter is generally the best combination. Bagless models make it easy to see when the bin is full (which happens fast with pet hair) and HEPA filters trap allergens rather than recirculating them. Our blog has a comprehensive buyer's guide covering the best options for different floor types and pet breeds.</p></div>
+        <div class="faq-answer"><div class="faq-answer-inner"><p>For pet hair, a bagless vacuum with a motorised brush roll and a HEPA filter is generally the best combination. Bagless models make it easy to see when the bin is full (which happens fast with pet hair) and HEPA filters trap allergens rather than recirculating them. Our blog has a comprehensive buyer's guide covering the best options for different floor types and pet breeds.</p></div></div>
       </div>
 
-      <div class="accordion-item">
-        <button class="accordion-btn">
+      <div class="faq-item">
+        <button class="faq-question">
           <h3>Are your solar lights suitable for all climates?</h3>
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          <span class="faq-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="7" y1="1" x2="7" y2="13"/><line x1="1" y1="7" x2="13" y2="7"/></svg></span>
         </button>
-        <div class="accordion-body"><p>Our solar lights are rated for use in a range of climates, from tropical to temperate. Look for models with an IP65 or higher waterproof rating for outdoor use in wet climates. In areas with long winters or limited sunlight, solar lights may produce reduced output during dark months — our buying guide explains how to choose the right model and placement for your climate.</p></div>
+        <div class="faq-answer"><div class="faq-answer-inner"><p>Our solar lights are rated for use in a range of climates, from tropical to temperate. Look for models with an IP65 or higher waterproof rating for outdoor use in wet climates. In areas with long winters or limited sunlight, solar lights may produce reduced output during dark months — our buying guide explains how to choose the right model and placement for your climate.</p></div></div>
       </div>
 
-      <div class="accordion-item">
-        <button class="accordion-btn">
+      <div class="faq-item">
+        <button class="faq-question">
           <h3>How do I remove wallpaper without damaging my walls?</h3>
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          <span class="faq-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="7" y1="1" x2="7" y2="13"/><line x1="1" y1="7" x2="13" y2="7"/></svg></span>
         </button>
-        <div class="accordion-body"><p>The key to damage-free wallpaper removal is moisture and patience. Score the wallpaper lightly with a scorer tool, then apply warm water mixed with fabric softener or a dedicated wallpaper removal solution. Let it soak in for several minutes before gently peeling. Work in small sections and avoid forcing dry sections. Our blog has a full step-by-step guide with tool recommendations.</p></div>
+        <div class="faq-answer"><div class="faq-answer-inner"><p>The key to damage-free wallpaper removal is moisture and patience. Score the wallpaper lightly with a scorer tool, then apply warm water mixed with fabric softener or a dedicated wallpaper removal solution. Let it soak in for several minutes before gently peeling. Work in small sections and avoid forcing dry sections. Our blog has a full step-by-step guide with tool recommendations.</p></div></div>
       </div>
 
-      <div class="accordion-item">
-        <button class="accordion-btn">
+      <div class="faq-item">
+        <button class="faq-question">
           <h3>What's the best way to improve indoor air quality?</h3>
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          <span class="faq-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="7" y1="1" x2="7" y2="13"/><line x1="1" y1="7" x2="13" y2="7"/></svg></span>
         </button>
-        <div class="accordion-body"><p>Improving indoor air quality starts with reducing sources of pollution — regular vacuuming with a HEPA filter, eliminating damp, and reducing VOC-emitting materials. A CO2 monitor helps you track ventilation needs in real time. Adding air-purifying plants and ensuring adequate fresh air flow make a significant difference, particularly in well-sealed modern homes.</p></div>
+        <div class="faq-answer"><div class="faq-answer-inner"><p>Improving indoor air quality starts with reducing sources of pollution — regular vacuuming with a HEPA filter, eliminating damp, and reducing VOC-emitting materials. A CO2 monitor helps you track ventilation needs in real time. Adding air-purifying plants and ensuring adequate fresh air flow make a significant difference, particularly in well-sealed modern homes.</p></div></div>
       </div>
 
-      <div class="accordion-item">
-        <button class="accordion-btn">
+      <div class="faq-item">
+        <button class="faq-question">
           <h3>Are peel-and-stick backsplash tiles any good?</h3>
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          <span class="faq-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="7" y1="1" x2="7" y2="13"/><line x1="1" y1="7" x2="13" y2="7"/></svg></span>
         </button>
-        <div class="accordion-body"><p>Modern peel-and-stick backsplash tiles have improved enormously in quality. Premium options closely mimic real tile, are heat-resistant (suitable for behind cooktops), moisture-resistant, and removable without wall damage — ideal for renters. The key is proper surface preparation: walls must be clean, dry, and free of grease. Our buying guide covers the best brands and application tips.</p></div>
+        <div class="faq-answer"><div class="faq-answer-inner"><p>Modern peel-and-stick backsplash tiles have improved enormously in quality. Premium options closely mimic real tile, are heat-resistant (suitable for behind cooktops), moisture-resistant, and removable without wall damage — ideal for renters. The key is proper surface preparation: walls must be clean, dry, and free of grease. Our buying guide covers the best brands and application tips.</p></div></div>
       </div>
 
-      <div class="accordion-item">
-        <button class="accordion-btn">
+      <div class="faq-item">
+        <button class="faq-question">
           <h3>How heavy can my shelving unit hold?</h3>
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          <span class="faq-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="7" y1="1" x2="7" y2="13"/><line x1="1" y1="7" x2="13" y2="7"/></svg></span>
         </button>
-        <div class="accordion-body"><p>Load capacity varies greatly by shelving type, material, and installation method. Heavy-duty metal shelving units fixed to wall studs can typically hold 100–200kg per shelf. Free-standing units are more limited. Always check the manufacturer's weight rating and distribute weight evenly. Never exceed the stated load limit — doing so creates a serious safety risk. Check our shelving buying guide for a full comparison.</p></div>
+        <div class="faq-answer"><div class="faq-answer-inner"><p>Load capacity varies greatly by shelving type, material, and installation method. Heavy-duty metal shelving units fixed to wall studs can typically hold 100–200kg per shelf. Free-standing units are more limited. Always check the manufacturer's weight rating and distribute weight evenly. Never exceed the stated load limit — doing so creates a serious safety risk. Check our shelving buying guide for a full comparison.</p></div></div>
       </div>
 
-      <div class="accordion-item">
-        <button class="accordion-btn">
+      <div class="faq-item">
+        <button class="faq-question">
           <h3>Can I use your products in a rental property?</h3>
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          <span class="faq-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="7" y1="1" x2="7" y2="13"/><line x1="1" y1="7" x2="13" y2="7"/></svg></span>
         </button>
-        <div class="accordion-body"><p>Many of our products are specifically designed for renters — peel-and-stick tiles, suction grab bars, removable adhesive hooks, and freestanding storage all fall into this category. Products that require drilling or permanent fixings should be checked against your tenancy agreement first. Our blog has a dedicated guide to smart rental home improvements that won't cost you your deposit.</p></div>
+        <div class="faq-answer"><div class="faq-answer-inner"><p>Many of our products are specifically designed for renters — peel-and-stick tiles, suction grab bars, removable adhesive hooks, and freestanding storage all fall into this category. Products that require drilling or permanent fixings should be checked against your tenancy agreement first. Our blog has a dedicated guide to smart rental home improvements that won't cost you your deposit.</p></div></div>
       </div>
 
-      <div class="accordion-item">
-        <button class="accordion-btn">
+      <div class="faq-item">
+        <button class="faq-question">
           <h3>How do portable heaters compare on energy efficiency?</h3>
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          <span class="faq-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="7" y1="1" x2="7" y2="13"/><line x1="1" y1="7" x2="13" y2="7"/></svg></span>
         </button>
-        <div class="accordion-body"><p>Radiant heaters are highly efficient for warming specific zones because they heat people and objects directly rather than the air. Convection heaters warm a whole room more gradually but use more energy for equivalent comfort. For targeted warmth, a quality radiant heater is almost always the more efficient choice. Our buying guide walks through the different types with real-world usage comparisons.</p></div>
+        <div class="faq-answer"><div class="faq-answer-inner"><p>Radiant heaters are highly efficient for warming specific zones because they heat people and objects directly rather than the air. Convection heaters warm a whole room more gradually but use more energy for equivalent comfort. For targeted warmth, a quality radiant heater is almost always the more efficient choice. Our buying guide walks through the different types with real-world usage comparisons.</p></div></div>
       </div>
 
-      <div class="accordion-item">
-        <button class="accordion-btn">
+      <div class="faq-item">
+        <button class="faq-question">
           <h3>How do I get rid of pet stains and odours completely?</h3>
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          <span class="faq-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="7" y1="1" x2="7" y2="13"/><line x1="1" y1="7" x2="13" y2="7"/></svg></span>
         </button>
-        <div class="accordion-body"><p>Enzymatic cleaners are the most effective solution for pet stains and odours because they break down the biological compounds causing the smell at a molecular level. Standard detergents may mask the odour temporarily but leave traces that attract pets back to the same spot. Act quickly, blot rather than rub, and apply an enzymatic cleaner generously. Our blog covers the best products by floor type.</p></div>
+        <div class="faq-answer"><div class="faq-answer-inner"><p>Enzymatic cleaners are the most effective solution for pet stains and odours because they break down the biological compounds causing the smell at a molecular level. Standard detergents may mask the odour temporarily but leave traces that attract pets back to the same spot. Act quickly, blot rather than rub, and apply an enzymatic cleaner generously. Our blog covers the best products by floor type.</p></div></div>
       </div>
 
-      <div class="accordion-item">
-        <button class="accordion-btn">
+      <div class="faq-item">
+        <button class="faq-question">
           <h3>What glass rinser models work best for home bars?</h3>
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          <span class="faq-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="7" y1="1" x2="7" y2="13"/><line x1="1" y1="7" x2="13" y2="7"/></svg></span>
         </button>
-        <div class="accordion-body"><p>For a home bar, look for a glass rinser with strong water pressure, a drip tray, and stainless steel construction for durability and easy cleaning. Models that integrate into a standard sink cutout give the most professional finish. Counter-mounted units are also available if sink modification isn't possible. Our buying guide covers top-rated models at different price points.</p></div>
+        <div class="faq-answer"><div class="faq-answer-inner"><p>For a home bar, look for a glass rinser with strong water pressure, a drip tray, and stainless steel construction for durability and easy cleaning. Models that integrate into a standard sink cutout give the most professional finish. Counter-mounted units are also available if sink modification isn't possible. Our buying guide covers top-rated models at different price points.</p></div></div>
       </div>
 
-      <div class="accordion-item">
-        <button class="accordion-btn">
+      <div class="faq-item">
+        <button class="faq-question">
           <h3>Do I need a drain pan under my washing machine?</h3>
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          <span class="faq-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="7" y1="1" x2="7" y2="13"/><line x1="1" y1="7" x2="13" y2="7"/></svg></span>
         </button>
-        <div class="accordion-body"><p>A washer drain pan is strongly recommended, particularly for machines installed above other living areas or on upper floors. Even a small hose leak or slow drip can cause significant water damage over time. A quality drain pan with a connected overflow drain provides excellent protection with minimal installation effort. It's one of the most cost-effective ways to protect your home from water damage.</p></div>
+        <div class="faq-answer"><div class="faq-answer-inner"><p>A washer drain pan is strongly recommended, particularly for machines installed above other living areas or on upper floors. Even a small hose leak or slow drip can cause significant water damage over time. A quality drain pan with a connected overflow drain provides excellent protection with minimal installation effort. It's one of the most cost-effective ways to protect your home from water damage.</p></div></div>
       </div>
 
-      <div class="accordion-item">
-        <button class="accordion-btn">
+      <div class="faq-item">
+        <button class="faq-question">
           <h3>How do I choose the right chandelier for a high ceiling?</h3>
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          <span class="faq-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="7" y1="1" x2="7" y2="13"/><line x1="1" y1="7" x2="13" y2="7"/></svg></span>
         </button>
-        <div class="accordion-body"><p>For high ceilings, you need a chandelier with sufficient visual presence and an appropriate drop height. A general rule: add the room's length and width in metres, and the chandelier diameter in centimetres should roughly equal that sum. For ceilings over 3m, a larger drop chandelier with tiered or dramatic crystal arrangements tends to work best. Our crystal chandelier guide covers sizing for various room proportions.</p></div>
+        <div class="faq-answer"><div class="faq-answer-inner"><p>For high ceilings, you need a chandelier with sufficient visual presence and an appropriate drop height. A general rule: add the room's length and width in metres, and the chandelier diameter in centimetres should roughly equal that sum. For ceilings over 3m, a larger drop chandelier with tiered or dramatic crystal arrangements tends to work best. Our crystal chandelier guide covers sizing for various room proportions.</p></div></div>
       </div>
 
-      <div class="accordion-item">
-        <button class="accordion-btn">
+      <div class="faq-item">
+        <button class="faq-question">
           <h3>Are wet-dry vacuums worth it for home use?</h3>
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          <span class="faq-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="7" y1="1" x2="7" y2="13"/><line x1="1" y1="7" x2="13" y2="7"/></svg></span>
         </button>
-        <div class="accordion-body"><p>Wet-dry vacuums (shop vacs) are incredibly versatile and excellent value if you do any DIY, have a workshop, basement, or deal with seasonal flooding. They handle sawdust, liquids, plaster, and debris that would destroy a regular vacuum. For purely domestic use with no DIY, a good quality bagless vacuum is usually more convenient — but if you want one machine to do it all, a wet-dry vac is hard to beat.</p></div>
+        <div class="faq-answer"><div class="faq-answer-inner"><p>Wet-dry vacuums (shop vacs) are incredibly versatile and excellent value if you do any DIY, have a workshop, basement, or deal with seasonal flooding. They handle sawdust, liquids, plaster, and debris that would destroy a regular vacuum. For purely domestic use with no DIY, a good quality bagless vacuum is usually more convenient — but if you want one machine to do it all, a wet-dry vac is hard to beat.</p></div></div>
       </div>
 
-      <div class="accordion-item">
-        <button class="accordion-btn">
+      <div class="faq-item">
+        <button class="faq-question">
           <h3>How do I move heavy furniture safely without hurting my back?</h3>
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          <span class="faq-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="7" y1="1" x2="7" y2="13"/><line x1="1" y1="7" x2="13" y2="7"/></svg></span>
         </button>
-        <div class="accordion-body"><p>Shoulder moving straps are one of the most effective tools for moving heavy furniture safely. They redistribute the weight from your lower back to the larger muscle groups in your shoulders and legs, significantly reducing injury risk. Combined with furniture sliders on hard floors, most heavy items can be moved by two people with minimal strain. Our buying guide covers the best strap systems for different furniture types and weights.</p></div>
+        <div class="faq-answer"><div class="faq-answer-inner"><p>Shoulder moving straps are one of the most effective tools for moving heavy furniture safely. They redistribute the weight from your lower back to the larger muscle groups in your shoulders and legs, significantly reducing injury risk. Combined with furniture sliders on hard floors, most heavy items can be moved by two people with minimal strain. Our buying guide covers the best strap systems for different furniture types and weights.</p></div></div>
       </div>
 
-    </div><!-- end accordion -->
+    </div><!-- end faq-grid -->
   </div>
 </div>
 
