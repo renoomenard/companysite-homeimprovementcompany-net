@@ -502,43 +502,64 @@
      FIFI THE FRENCH BULLDOG MASCOT
      ============================================================ -->
 <section class="section" id="fifi">
-  <div class="fifi-wrapper">
-    <div class="fifi-icon">
-      <svg width="80" height="80" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-        <!-- Fifi the French Bulldog SVG illustration -->
-        <circle cx="50" cy="55" r="30" fill="#e8c99a"/>
-        <!-- Ears -->
-        <ellipse cx="28" cy="32" rx="12" ry="16" fill="#c9a87a" transform="rotate(-15,28,32)"/>
-        <ellipse cx="72" cy="32" rx="12" ry="16" fill="#c9a87a" transform="rotate(15,72,32)"/>
-        <ellipse cx="28" cy="30" rx="7" ry="11" fill="#e8c99a" transform="rotate(-15,28,30)"/>
-        <ellipse cx="72" cy="30" rx="7" ry="11" fill="#e8c99a" transform="rotate(15,72,30)"/>
-        <!-- Head -->
-        <ellipse cx="50" cy="50" rx="28" ry="26" fill="#e8c99a"/>
-        <!-- Eyes (closed - sleeping!) -->
-        <path d="M38 46 Q42 43 46 46" stroke="#5a3d28" stroke-width="2.5" fill="none" stroke-linecap="round"/>
-        <path d="M54 46 Q58 43 62 46" stroke="#5a3d28" stroke-width="2.5" fill="none" stroke-linecap="round"/>
-        <!-- Nose -->
-        <ellipse cx="50" cy="54" rx="7" ry="5" fill="#5a3d28"/>
-        <ellipse cx="47" cy="53" rx="2" ry="1.5" fill="#7a5a3a"/>
-        <ellipse cx="53" cy="53" rx="2" ry="1.5" fill="#7a5a3a"/>
-        <!-- Mouth -->
-        <path d="M44 59 Q50 64 56 59" stroke="#5a3d28" stroke-width="2" fill="none" stroke-linecap="round"/>
-        <!-- Snore ZZZ -->
-        <text x="66" y="30" font-size="10" fill="#1a4a8a" font-weight="bold" opacity="0.7">z</text>
-        <text x="72" y="22" font-size="13" fill="#1a4a8a" font-weight="bold" opacity="0.5">z</text>
-        <text x="79" y="13" font-size="16" fill="#1a4a8a" font-weight="bold" opacity="0.3">z</text>
-        <!-- Collar -->
-        <rect x="35" y="73" width="30" height="6" rx="3" fill="#1e6dc8"/>
-        <circle cx="50" cy="76" r="3" fill="#e8a020"/>
-      </svg>
-    </div>
-    <div class="fifi-text">
-      <span class="section-label">Meet Our Mascot</span>
+  <div class="fifi-card-outer">
+
+    <!-- Header -->
+    <div class="fifi-top">
+      <span class="section-label">Meet The Team</span>
       <h2 class="section-title">Say Hello to Fifi</h2>
       <div class="divider"></div>
-      <p>Every great company has a secret weapon. Ours has four paws, a squashed little nose, and an Olympic-level talent for napping. Meet <strong>Fifi</strong> — our beloved French Bulldog mascot and the unofficial Head of Nap Operations at The Home Improvement Company.</p>
-      <p style="margin-top:16px">Fifi may sleep approximately 23 hours a day (the other hour is dedicated to snacks), but she takes home improvement <em>very</em> seriously in her dreams. We like to think that her dedication to comfort has inspired our entire product range — because if Fifi approves, your home is going to feel amazing.</p>
-      <p style="margin-top:16px">When she's not supervising the team from her favourite cushion, Fifi acts as chief quality inspector for all things cosy, safe, and stylish. She's demanding, adorable, and 100% on your side. Look out for Fifi across our stores — she's the one who looks suspiciously well-rested.</p>
+      <p class="fifi-intro">Every great company has a secret weapon. Ours has four paws, a squashed nose, and an undefeated record in competitive napping. Fifi is the heart of The Home Improvement Company — and she'd like you to know she takes quality control very seriously (in her dreams).</p>
+    </div>
+
+    <!-- Spotlight -->
+    <div class="fifi-spotlight">
+      <div class="fifi-spotlight-inner">
+        <img src="/assets/fifi-sleep-mask.jpg" alt="Fifi wearing her sleep mask — on the clock as always" class="fifi-spotlight-img">
+        <img src="/assets/fifi-stamp-of-approval.jpg" alt="Fifi's official stamp of approval" class="fifi-stamp">
+      </div>
+      <div class="fifi-spotlight-copy">
+        <p class="fifi-hq-name">Fifi</p>
+        <p class="fifi-hq-role">Chief Napping Officer</p>
+        <p class="fifi-hq-quote">"I reviewed the entire product range last night. In bed. Verdict: excellent."</p>
+      </div>
+    </div>
+
+    <!-- Team grid -->
+    <div class="fifi-team-grid">
+
+      <div class="fifi-team-card">
+        <img src="/assets/CEO-of-Sleep.jpg" alt="Fifi the CEO of Sleep in the boardroom" class="fifi-team-img">
+        <div class="fifi-team-body">
+          <p class="fifi-team-dept">CEO of Sleep</p>
+          <p class="fifi-team-copy">Chairs every nap review. Has never lost a board meeting — mostly because she sleeps through all of them.</p>
+        </div>
+      </div>
+
+      <div class="fifi-team-card">
+        <img src="/assets/Head-Of-Website-Build-Work.jpg" alt="Fifi the Head of Website Build Work at her desk" class="fifi-team-img">
+        <div class="fifi-team-body">
+          <p class="fifi-team-dept">Head of Website Build Work</p>
+          <p class="fifi-team-copy">Published several bestselling books on lying down. Currently reviewing the site with her eyes closed.</p>
+        </div>
+      </div>
+
+      <div class="fifi-team-card">
+        <img src="/assets/Pawductivity-Expert.jpg" alt="Fifi the Pawductivity Expert" class="fifi-team-img">
+        <div class="fifi-team-body">
+          <p class="fifi-team-dept">Pawductivity Expert</p>
+          <p class="fifi-team-copy">Invented the 23-hour workday: one hour for snacks, 23 for optimised rest. Peak performance.</p>
+        </div>
+      </div>
+
+      <div class="fifi-team-card">
+        <img src="/assets/best-warehouse-direct-supplier.jpg" alt="Fifi approving warehouse suppliers" class="fifi-team-img">
+        <div class="fifi-team-body">
+          <p class="fifi-team-dept">Best Warehouse Direct Supplier</p>
+          <p class="fifi-team-copy">Approves every supplier deal from her executive pillow. If she doesn't nap through it, it doesn't ship.</p>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>
